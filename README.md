@@ -1,11 +1,17 @@
 # Minimalist Waybar Configuration & Media Player
 
-This repository contains my personal [Waybar](https://github.com/Alexays/Waybar) configuration files (`dotfiles`), featuring a custom **Minimalist Expandable Media Player**.
+This repository contains my personal [Waybar](https://github.com/Alexays/Waybar) configuration files (`dotfiles`), featuring a custom **Minimalist Expandable Media Player And Caffine toogle**.
 
 
 ## 🎵 Featured: Minimalist Media Player Drawer
 
 A clean, distraction-free media control module that integrates seamlessly into Waybar. It shows a dynamic status icon that expands into a full control suite when clicked.
+
+## ☕ Caffeine (Idle Inhibitor)
+
+A simple toggle button to prevent the screen from locking or sleeping.
+- **Icon**: Shows a coffee cup () when activated, and a sleepy eye/bed (󰒲) when deactivated.
+- **Usage**: Click to toggle presentation mode/insomnia.
 
 
 ### Features
@@ -76,6 +82,8 @@ A clean, distraction-free media control module that integrates seamlessly into W
 A simple toggle button to prevent the screen from locking or sleeping.
 
 ### Features
+
+- **Distraction Free**: A click on caffine icon toggles idle-inhibitor stopping anoyances.
 - **Presentation Mode**: Keeps the screen awake for reading, watching videos, or presentations.
 - **Visual Feedback**: Distinct icons for active (☕) and inactive (󰒲) states.
 - **Battery Saving**: Easily toggle off when not needed to save power.
